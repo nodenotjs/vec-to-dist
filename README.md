@@ -2,7 +2,7 @@
 
 Converts a Vector3 to distance using a distance approximation method with tp
 
-# I just realized a much better way to do this. I will be archiving this repository
+# I am working on correcting the lack of precision at greater distances
 
 # Pros and Cons:
 
