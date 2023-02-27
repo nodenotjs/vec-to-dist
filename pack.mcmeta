@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 13,
+        "description": "Calculates the distance of a Vec3"
+    }
+}
