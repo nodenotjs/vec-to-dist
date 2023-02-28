@@ -4,9 +4,9 @@ data modify storage vtd tempvec set from storage vtd vec
 execute positioned 0.0 0.0 0.0 facing entity @s feet run tp @s ^ ^ ^1 ~ ~
 data modify storage vtd tempvecnorm set from entity @s Pos
 
-execute at @s run particle dust 0 1 0 1 ~ ~ ~ 0 0 0 0 1 force
+#execute at @s run particle dust 0 1 0 1 ~ ~ ~ 0 0 0 0 1 force
 execute facing entity @s feet run particle dust 0 0 1 .3 ^ ^ ^.2 0 0 0 0 1 force
-execute positioned 0.0 0.0 0.0 run particle dust 1 0 0 .5 ~ ~ ~ 0 0 0 0 1 force
+#execute positioned 0.0 0.0 0.0 run particle dust 1 0 0 .5 ~ ~ ~ 0 0 0 0 1 force
 
 execute store result score x vtd run data get storage vtd tempvec[0]
 execute store result score y vtd run data get storage vtd tempvec[1]
