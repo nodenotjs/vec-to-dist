@@ -19,6 +19,8 @@ This will set the fakeplayer `dist` of the `vtd` score to 1731.
 
 You notice that there is 1 decimal inaccuracy in this particular case, since the correct value would be 1732, but this is usually irrelevant. Below I explain the reason for this
 
+If you want to compensate for this inaccuracy, you can use a scale of x100 and then divide by 100, thus increasing the precision
+
 Now let's calculate the distance of a player based on another player with 3 decimals of precision
 
 ```mcfunction
