@@ -2,6 +2,10 @@
 
 A library for calculating distance between vectors accurately even over large distances
 
+The datapack calculates the magnitude by multiplying the vector by the normalized vector value and summing the xyz.
+
+The normalized vector is easily acquired using tp, and the multiplication is done using more or less the same method we learned in school. This is because we cannot use multiplication and division for scaling if we want to allow large values.
+
 ## ⁉️ Implementing in your Datapack
 
 First, install the datapack on your world or embed it in your datapack
@@ -54,7 +58,8 @@ This will calculate the distance between the two entities.
 
 _The library doesn't yet have a function to subtract the vectors automatically._
 
-## Important Notes:
+
+## 🚨 Important Notes:
 
 The multiplication method has a small inaccuracy, which I plan to improve in the future.
 
