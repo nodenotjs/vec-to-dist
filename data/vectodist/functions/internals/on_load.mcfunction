@@ -15,4 +15,4 @@ scoreboard players set 10000000 vtd 10000000
 scoreboard players set 100000000 vtd 100000000
 scoreboard players set 1000000000 vtd 1000000000
 
-forceload add 0 0
+#forceload add 0 0
