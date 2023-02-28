@@ -4,7 +4,6 @@ data modify entity @s Pos set from storage vtd tempvec
 
 execute positioned 0.0 0.0 0.0 facing entity @s feet run tp @s ^ ^ ^1 ~ ~
 data modify storage vtd tempvecnorm set from entity @s Pos
-data modify storage vtd rot set from entity @s Rotation
 
 # Debug Particles
 # execute at @s run particle dust 1 1 0 1 ~ ~ ~ 0 0 0 0 1 force
