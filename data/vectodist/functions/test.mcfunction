@@ -1,4 +1,4 @@
-data modify storage vtd vec set from entity _N0de Pos
+data modify storage vtd vec set from entity _N0de Motion
 
 execute store result storage vtd vec[0] double 1 run data get storage vtd vec[0] 1000
 execute store result storage vtd vec[1] double 1 run data get storage vtd vec[1] 1000

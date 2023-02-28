@@ -1,3 +1,7 @@
+execute store result score nx_0 vtd run data get storage vtd tempvecnorm[0] 1
+execute store result score ny_0 vtd run data get storage vtd tempvecnorm[1] 1
+execute store result score nz_0 vtd run data get storage vtd tempvecnorm[2] 1
+
 execute store result score nx_1 vtd run data get storage vtd tempvecnorm[0] 10
 execute store result score ny_1 vtd run data get storage vtd tempvecnorm[1] 10
 execute store result score nz_1 vtd run data get storage vtd tempvecnorm[2] 10

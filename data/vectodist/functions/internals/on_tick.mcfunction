@@ -1,4 +1,4 @@
-# execute as @e run function vectodist:test
+# function vectodist:test
 
 # tellraw @a ["Vec: ", {"nbt":"tempvec","storage":"vtd"}]
 # tellraw @a ["Normalized: ", {"nbt":"tempvecnorm","storage":"vtd"}]

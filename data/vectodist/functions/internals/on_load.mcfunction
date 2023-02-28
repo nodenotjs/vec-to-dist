@@ -4,6 +4,7 @@
 scoreboard objectives add vtd dummy
 scoreboard players add dist vtd 0
 
+scoreboard players set -1 vtd -1
 scoreboard players set 1 vtd 1
 scoreboard players set 10 vtd 10
 scoreboard players set 100 vtd 100

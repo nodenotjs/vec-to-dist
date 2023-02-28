@@ -21,5 +21,6 @@ scoreboard players operation dist vtd += mx vtd
 scoreboard players operation dist vtd += my vtd
 scoreboard players operation dist vtd += mz vtd
 scoreboard players operation dist vtd /= 10 vtd
+execute if score dist vtd matches ..-1 run scoreboard players operation dist vtd *= -1 vtd
 
 kill @s
