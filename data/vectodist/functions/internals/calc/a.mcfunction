@@ -14,7 +14,8 @@ scoreboard players set mz vtd 0
 
 # Get decimals
 function vectodist:internals/calc/get_decimals
-function vectodist:internals/calc/multiply_by_decimals_and_sum
+function vectodist:internals/calc/get_normalized_decimals
+function vectodist:internals/calc/multiply_by_decimals_old
 
 scoreboard players set dist vtd 0
 scoreboard players operation dist vtd += mx vtd
