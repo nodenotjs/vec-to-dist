@@ -1,5 +1,5 @@
 ## DESCRIPTION:
-##   Calculates the distance of a vector 3 using distance approximation.
+##   Calculates the magnitude of a vector 3.
 ##   The output is scaled in x1000 to support 3 decimals of precision
 ##   The maximum possible distance to calculate is 2.147.483,647 blocks.
 ##
@@ -16,4 +16,5 @@
 ##   [SCORE] dist vtd (x1000 scaled)
 # by: N0de#0001 | _N0de
 
-function vectodist:calculate/summon_marker
+execute positioned 0.0 0.0 0.0 summon marker run function vectodist:internals/calc/a
+# execute as 3c427e05-a39d-3c0a-5997-94330d125aa3 run function vectodist:internals/calc/a

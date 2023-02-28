@@ -1,16 +1,6 @@
 # vec-to-dist
 
-Converts a Vector3 to distance using a distance approximation method with tp
-
-
-# Pros and Cons:
-
-### Pros: 
-The advantage of this method over using math is that it works without the danger of overflow over basically any distance.
-
-### Cons:
-The downside is that it is heavy and not as accurate at long distances.
-
+A library for calculating distance between vectors accurately even over large distances
 
 ## ⁉️ Implementing in your Datapack
 
