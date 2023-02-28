@@ -1,6 +1,10 @@
 # vec-to-dist
 
-A library for calculating distance between vectors accurately even over large distances
+### A library for calculating distance between vectors accurately even over large distances
+
+The datapack calculates the magnitude by multiplying the vector by the normalized vector value and summing the xyz.
+
+The normalized vector is easily acquired using tp, and the multiplication is done using more or less the same method we learned in school. This is because we cannot use multiplication and division for scaling if we want to allow large values.
 
 ## ⁉️ Implementing in your Datapack
 
@@ -54,11 +58,12 @@ This will calculate the distance between the two entities.
 
 _The library doesn't yet have a function to subtract the vectors automatically._
 
-## Important Notes:
+
+## 🚨 Important Notes:
 
 The multiplication method has a small inaccuracy, which I plan to improve in the future.
 
-You notice that there is 1 decimal inaccuracy in this particular case, since the correct value would be 1732, but this is usually irrelevant
+You notice that there is 1 decimal inaccuracy in this particular case, since the correct value would be 1732, but this is usually irrelevant.
 If you want precision, I always recommend scaling the input value a bit to get a more precise result. The more scaled, the higher the precision
 
 Extremely high values also have a small inaccuracy. Example: at the edge of the world (magnitude 4M, vec = [299999999.0d,0.0d,299999999.0d] (x10 scale)) there is a difference of ~4800 blocks. Note that this magnitude is gigantic and you will hardly reach this point. If for some reason you get to this value, you probably shouldn't be on such a high scale
