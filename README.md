@@ -1,6 +1,6 @@
 # vec-to-dist
 
-A library for calculating distance between vectors accurately even over large distances
+### A library for calculating distance between vectors accurately even over large distances
 
 The datapack calculates the magnitude by multiplying the vector by the normalized vector value and summing the xyz.
 
