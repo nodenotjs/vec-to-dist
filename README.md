@@ -4,7 +4,7 @@
 
 The datapack calculates the magnitude by multiplying the vector by the normalized vector value and summing the xyz.
 
-The normalized vector is easily acquired using tp, and the multiplication is done using more or less the same method we learned in school. This is because we cannot use multiplication and division for scaling if we want to allow large values.
+The normalized vector is easily acquired using tp, and the multiplication is done using more or less the same method we learned in school (digit by digit). This is because we cannot use multiplication and division for scaling if we want to allow large values.
 
 ## ⁉️ Implementing in your Datapack
 
